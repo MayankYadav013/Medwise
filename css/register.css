@@ -1,3 +1,6 @@
+#reg-form-wrap{
+  border: 2px solid black;
+}
 h1 {
     font-weight: 500;
     text-align: center;
@@ -6,7 +9,7 @@ h1 {
   p {
     position: relative;
   }
-  #email,#password,#address,#fname,#lname,#gender,#mob{
+  #adhar,#mob{
     font-weight: 600;
     border: 2px solid black;
   }
@@ -29,6 +32,7 @@ h1 {
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
   }
+  
   #reg-form-wrap {
     background-color: #fff;
     width: 35%;
@@ -39,10 +43,20 @@ h1 {
     box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
   }
   
-  
   #reg-form {
     padding: 0 60px;
   }
+  
+  input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    outline: 2px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 4px;
+  }
+  
   input[type="text"],
   input[type="email"] {
     width: 100%;
