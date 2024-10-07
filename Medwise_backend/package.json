@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "name": "medwise_backend",
+  "version": "1.0.0",
+  "description": "A healthcare web application",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "\"Mayank Tripathi and team members\"",
+  "license": "ISC"
+}
